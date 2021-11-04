@@ -8,5 +8,6 @@
       "prompt-sync": "^4.2.0"
     },
     "devDependencies": {},
+    "type": "module",
     "scripts": {}
 }
