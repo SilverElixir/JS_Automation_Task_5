@@ -3,7 +3,7 @@ import Vehicle from './vehicle.js';
 export default class Car extends Vehicle{
     constructor(vehicleModel, vehicleYear, maxSpeed){
         super(vehicleModel, vehicleYear, maxSpeed);
-        this.type = "Car";
+        this.type = "car";
     }
 
     drive(){
@@ -11,14 +11,11 @@ export default class Car extends Vehicle{
     }
 }
 
-//export default new Car();
-//export default class Car {};
 
-//
 class Motorcycle extends Vehicle{
     constructor(vehicleModel, vehicleYear, maxSpeed){
         super(vehicleModel, vehicleYear, maxSpeed);
-        this.type = "Motorcycle";
+        this.type = "motorcycle";
     }
 
     driveCrazy(){

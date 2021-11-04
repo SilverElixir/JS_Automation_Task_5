@@ -1,9 +1,9 @@
 import Vehicle from './vehicle.js';
 
-export class Airplane extends Vehicle{
+export default class Airplane extends Vehicle{
     constructor(vehicleModel, vehicleYear, maxSpeed, airlines, isLowCostAirline){
         super(vehicleModel, vehicleYear, maxSpeed);
-        this.type = "Airplane";
+        this.type = "airplane";
         this.airlines = airlines;
         this.isLowCostAirline = isLowCostAirline;
     }
@@ -14,6 +14,6 @@ export class Airplane extends Vehicle{
 
     // overriding parent's method
     ignite(){
-        console.log(`${this.model} is ready to fly`);
+        console.log(`${this.model} is preparing to fly`);
     }
 }

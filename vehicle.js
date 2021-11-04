@@ -13,11 +13,10 @@ export default class Vehicle{
     }
 
     ignite(){
-        console.log(`${this.type} is ready for a start`)
+        console.log(`${this.model} is preparing to start...`)
+    }
+
+    static fillInFuel(vehicle){
+        console.log(`Filling the fuel into ${vehicle.model} ${vehicle.type}`);
     }
 }
-
-//export default Vehicle
-//export {displayInfo, ignite}
-
-//export default class Vehicle {};
